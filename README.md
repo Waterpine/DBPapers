@@ -15,27 +15,33 @@ Contributed by Song Bian (The Chinese University of Hong Kong)
 
    - [Fairness](#Fairness)
 
-   - [Data Visualizations](# Data-Visualizations)
+   - [Data Visualization](# Data-Visualization)
 
 3. [Graph Database](#Graph-Database)
 
-   * [Shortest Path](#Shortest-Path)
-   * [Influence Maximization](#Influence-Maximization)
-   * [Personalized PageRank (PPR)](#Personalized-PageRank(PPR))
-   * [Knowledge Graph](#Knowledge-Graph)
-   * [Graph Dependence](#Graph-Dependence)
+   - [Shortest Path](#Shortest-Path)
+
+   - [Influence Maximization](#Influence-Maximization)
+
+   - [Personalized PageRank (PPR)](#Personalized-PageRank(PPR))
+
+   - [Knowledge Graph](#Knowledge-Graph)
+
+   - [Graph Dependence](#Graph-Dependence)
 
 4. [Query Processing & Optimization](#Query-Processing-&-Optimization)
 
-   * [Approximate Query Processing](#Approximate-Query-Processing)
-   * [Query Optimization](#Query-Optimization)
+   - [Approximate Query Processing](#Approximate-Query-Processing)
+
+   - [Query Optimization](#Query-Optimization)
 
 5. [New Hardware](#New-Hardware)
 
-   * [NVM](#NVM)
+   - [NVM](#NVM)
 
-   * [GPU](#GPU)
-   * [SSD](#SSD)
+   - [GPU](#GPU)
+
+   - [SSD](#SSD)
 
 6. [Stream & Sketch](#Stream-&-Sketch)
 
@@ -70,7 +76,7 @@ Contributed by Song Bian (The Chinese University of Hong Kong)
 4. **Learning Fair Representations.** ICML 2013. [paper](https://www.cs.toronto.edu/~toni/Papers/icml-final.pdf)
 5. **Fairness Through Awareness.** ITCS 2012. [paper](http://www.cs.toronto.edu/~zemel/documents/fairAwareItcs2012.pdf)
 
-#### Data Visualizations
+#### Data Visualization
 
 1. **Anti-Freeze for Large and Complex Spreadsheets: Asynchronous Formula Computation.** SIGMOD 2019. [paper](https://dl.acm.org/doi/pdf/10.1145/3299869.3319876?download=true)
 2. **Towards Democratizing Relational Data Visualization.** SIGMOD 2019. [paper](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/sigmod19-tutorial-paper.pdf)
