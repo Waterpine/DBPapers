@@ -5,38 +5,34 @@ Contributed by Song Bian (The Chinese University of Hong Kong)
 
 ### Content
 
-1. [DB + ML](#DB + ML)
+1. [DB + ML](#DB-+-ML)
 
-2. [Data Exploration/Integration](#Data Exploration/Integration)
-
-   * [Provenance/Explanation](#Provenance/Explanation)
-   * [Interactive Data Exploration](#Interactive Data Exploration)
+2. [Data Exploration/Integration](#Data-Exploration/Integration)
+* [Provenance/Explanation](#Provenance/Explanation)
+   * [Data Exploration](#Data-Exploration)
    * [Fairness](#Fairness)
-   * [Data Visualizations/Interactive System](# Data Visualizations/Interactive System)
-
-3. [Graph Database](#Graph Database)
-
-   * [Shortest Path](#Shortest Path)
-   * [Influence Maximization](#Influence Maximization)
-   * [Personalized PageRank (PPR)](#Personalized PageRank(PPR))
-   * [Knowledge Graph](#Knowledge Graph)
-   * [Graph Dependence](#Graph Dependence)
-
-4. [Query Processing & Optimization](#Query Processing & Optimization)
-
-   * [Approximate Query Processing](#Approximate Query Processing)
-   * [Query Optimization](#Query Optimization)
-
-5. [New Hardware](#New Hardware)
-
-   * [NVM](#NVM)
-
-   * [GPU](#GPU)
+   * [Data Visualizations/Interactive System](# Data-Visualizations/Interactive-System)
+   
+3. [Graph Database](#Graph-Database)
+* [Shortest Path](#Shortest-Path)
+   * [Influence Maximization](#Influence-Maximization)
+   * [Personalized PageRank (PPR)](#Personalized-PageRank(PPR))
+   * [Knowledge Graph](#Knowledge-Graph)
+   * [Graph Dependence](#Graph-Dependence)
+   
+4. [Query Processing & Optimization](#Query-Processing-&-Optimization)
+* [Approximate Query Processing](#Approximate-Query-Processing)
+   * [Query Optimization](#Query-Optimization)
+   
+5. [New Hardware](#New-Hardware)
+* [NVM](#NVM)
+   
+* [GPU](#GPU)
    * [SSD](#SSD)
+   
+6. [Stream & Sketch](#Stream-&-Sketch)
 
-6. [Stream & Sketch](#Stream & Sketch)
 
-### 
 
 ### DB + ML
 
@@ -48,7 +44,7 @@ Contributed by Song Bian (The Chinese University of Hong Kong)
 2. **Ariadne: Online Provenance for Big Graph Analytics.** SIGMOD 2019. [paper](http://www.sysnet.ucsd.edu/sysnet/miscpapers/ariadne-sigmod19.pdf)
 3. **Going Beyond Provenance: Explaining Query Answers with Pattern-based Counterbalances.** SIGMOD 2019. [paper](https://users.cs.duke.edu/~sudeepa/papers/SIGMOD2019-cape.pdf)
 4. **Explaining Wrong Queries Using Small Examples** SIGMOD 2019. [paper](https://users.cs.duke.edu/~sudeepa/papers/SIGMOD2019-ratest.pdf)
-5. **Answering Why-questions by Exemplars in Attributed Graphs.** SIGMOD 2019. [paper](https://dl.acm.org/doi/pdf/10.1145/3299869.3319890?download=true)
+5. **Answering Why-questions by Exemplars in Attributed Graphs.** SIGMOD 2019. [paper](https://dl.acm.org/doi/pdf/10.1145/3299869.3319890?download=true)
 6. **Explaining Query Answers with Explanation-Ready Databases.** PVLDB 2015. [paper](http://www.vldb.org/pvldb/vol9/p348-roy.pdf)
 7. **A Formal Approach to Finding Explanations for Database Queries.** SIGMOD 2014. [paper](https://homes.cs.washington.edu/~suciu/main_explanation.pdf)
 8. **Provenance for Aggregate Queries.** PODS 2011. [paper](https://www.cs.tau.ac.il/~danielde/publications/pods2011b.pdf)
@@ -134,7 +130,7 @@ Contributed by Song Bian (The Chinese University of Hong Kong)
 #### Skyline Query & Regret
 
 1. **RRR: Rank-Regret Representative.** SIGMOD 2019. [paper](https://dl.acm.org/doi/pdf/10.1145/3299869.3300080?download=true)
-2. **Efficient k-Regret Query Algorithm with Restriction-free Bound for any Dimensionality.** SIGMOD 2018. [paper](http://www.cse.ust.hk/~raywong/paper/sigmod18-regret.pdf)
+2. **Efficient k-Regret Query Algorithm with Restriction-free Bound for any Dimensionality.** SIGMOD 2018. [paper](http://www.cse.ust.hk/~raywong/paper/sigmod18-regret.pdf)
 3. **On Obtaining Stable Rankings.** PVLDB 2018. [paper](http://www.vldb.org/pvldb/vol12/p237-asudeh.pdf)
 
 ### New Hardware
