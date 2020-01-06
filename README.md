@@ -7,15 +7,15 @@ Contributed by Song Bian (The Chinese University of Hong Kong)
 
 1. [DB + ML](#DB-+-ML)
 
-2. [Data Exploration/Integration](#Data-Exploration/Integration)
+2. [Data Exploration & Integration](#Data-Exploration-&-Integration)
 
-   - [Provenance/Explanation](#Provenance/Explanation)
+   - [Provenance & Explanation](#Provenance-&-Explanation)
 
    - [Data Exploration](#Data-Exploration)
 
    - [Fairness](#Fairness)
 
-   - [Data Visualization](# Data-Visualization)
+   - [Data Visualization](#Data-Visualization)
 
 3. [Graph Database](#Graph-Database)
 
@@ -23,7 +23,7 @@ Contributed by Song Bian (The Chinese University of Hong Kong)
 
    - [Influence Maximization](#Influence-Maximization)
 
-   - [Personalized PageRank (PPR)](#Personalized-PageRank(PPR))
+   - [Personalized PageRank](#Personalized-PageRank)
 
    - [Knowledge Graph](#Knowledge-Graph)
 
@@ -49,9 +49,9 @@ Contributed by Song Bian (The Chinese University of Hong Kong)
 
 ### DB + ML
 
-### Data Exploration/Integration
+### Data Exploration & Integration
 
-#### Provenance/Explanation
+#### Provenance & Explanation
 
 1. **Hypothetical Reasoning via Provenance Abstraction.** SIGMOD 2019. [paper](https://web.eecs.umich.edu/~yuvalm/docs/sigmod19.pdf)
 2. **Ariadne: Online Provenance for Big Graph Analytics.** SIGMOD 2019. [paper](http://www.sysnet.ucsd.edu/sysnet/miscpapers/ariadne-sigmod19.pdf)
