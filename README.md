@@ -7,9 +7,9 @@ Contributed by Song Bian (The Chinese University of Hong Kong)
 
 1. [DB + ML](#DB-+-ML)
 
-2. [Data Exploration \& Integration](#Data-Exploration-\&-Integration)
+2. [Data Exploration and Integration](#Data-Exploration-and-Integration)
 
-   - [Provenance \& Explanation](#Provenance-\&-Explanation)
+   - [Provenance and Explanation](#Provenance-and-Explanation)
 
    - [Data Exploration](#Data-Exploration)
 
@@ -29,12 +29,12 @@ Contributed by Song Bian (The Chinese University of Hong Kong)
 
    - [Graph Dependence](#Graph-Dependence)
 
-4. [Query Processing \& Optimization](#Query-Processing-\&-Optimization)
+4. [Query Processing and Optimization](#Query-Processing-and-Optimization)
 
    - [Approximate Query Processing](#Approximate-Query-Processing)
 
    - [Query Optimization](#Query-Optimization)
-   - [Skyline Query \& Regret](#Skyline Query \& Regret)
+   - [Skyline Query and Regret](#Skyline-Query-and-Regret)
 
 5. [New Hardware](#New-Hardware)
 
@@ -44,15 +44,15 @@ Contributed by Song Bian (The Chinese University of Hong Kong)
 
    - [SSD](#SSD)
 
-6. [Stream & Sketch](#Stream-&-Sketch)
+6. [Stream-and-Sketch](#Stream-and-Sketch)
 
 
 
 ### DB + ML
 
-### Data Exploration \& Integration
+### Data Exploration and Integration
 
-#### Provenance \& Explanation
+#### Provenance and Explanation
 
 1. **Hypothetical Reasoning via Provenance Abstraction.** SIGMOD 2019. [paper](https://web.eecs.umich.edu/~yuvalm/docs/sigmod19.pdf)
 2. **Ariadne: Online Provenance for Big Graph Analytics.** SIGMOD 2019. [paper](http://www.sysnet.ucsd.edu/sysnet/miscpapers/ariadne-sigmod19.pdf)
@@ -101,7 +101,7 @@ Contributed by Song Bian (The Chinese University of Hong Kong)
 5. **Influence Maximization in Near-Linear Time: A Martingale Approach.** SIGMOD 2015. [paper](https://dl.acm.org/doi/pdf/10.1145/2723372.2723734?download=true)
 6. **Influence Maximization: Near-Optimal Time Complexity Meets Practical Efficiency.** SIGMOD 2014. [paper](https://arxiv.org/pdf/1404.0900.pdf)
 
-#### Personalized PageRank (PPR)
+#### Personalized PageRank
 
 1. **TopPPR: Top-k Personalized PageRank Queries with Precision Guarantees on Large Graphs** SIGMOD 2018. [paper](http://www.weizhewei.com/papers/SIGMOD18.pdf)
 2. **FORA: Simple and Effective Approximate Single-Source Personalized PageRank.** KDD 2017. [paper](http://www.weizhewei.com/papers/kdd17.pdf)
@@ -124,7 +124,7 @@ Contributed by Song Bian (The Chinese University of Hong Kong)
 2. **Discovering Graph Functional Dependencies.** SIGMOD 2018. [paper](https://dl.acm.org/doi/pdf/10.1145/3183713.3196916?download=true)
 3. **Dependencies for Graphs.** PODS 2017. [paper](https://dl.acm.org/doi/pdf/10.1145/3034786.3056114?download=true)
 
-### Query Processing \& Optimization
+### Query Processing and Optimization
 
 #### Approximate Query Processing
 
@@ -141,7 +141,7 @@ Contributed by Song Bian (The Chinese University of Hong Kong)
 2. **Exact Cardinality Query Optimization with Bounded Execution Cost.** SIGMOD 2019. [paper](https://dl.acm.org/doi/pdf/10.1145/3299869.3300087?download=true)
 3. **Adaptive Optimization of Very Large Join Queries.** SIGMOD 2018. [paper](https://db.in.tum.de/~radke/papers/hugejoins.pdf)
 
-#### Skyline Query \& Regret
+#### Skyline Query and Regret
 
 1. **RRR: Rank-Regret Representative.** SIGMOD 2019. [paper](https://dl.acm.org/doi/pdf/10.1145/3299869.3300080?download=true)
 2. **Efficient k-Regret Query Algorithm with Restriction-free Bound for any Dimensionality.** SIGMOD 2018. [paper](http://www.cse.ust.hk/~raywong/paper/sigmod18-regret.pdf)
