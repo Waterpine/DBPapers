@@ -46,7 +46,13 @@ Contributed by Song Bian (The Chinese University of Hong Kong)
 
 6. [Stream-and-Sketch](#Stream-and-Sketch)
 
+7. [Security and Privacy](#Security-and-Privacy)
 
+8. [Transaction and Concurrency Control](#Transaction-and-Concurrency-control)
+
+9. [Key Value Store](#Key-value-store)
+
+10. [Logging and Recovery](#Logging-and-Recovery)
 
 ### DB + ML
 
@@ -149,10 +155,35 @@ Contributed by Song Bian (The Chinese University of Hong Kong)
 
 ### New Hardware
 
-#### GPU
+#### GPU/FPGA
 
 #### NVM
-
+1. **Managing Non-Volatile Memory in Database Systems.** SIGMOD 2018. [paper](https://db.in.tum.de/~leis/papers/nvm.pdf)
+2. **Let’s Talk About Storage & Recovery Methods for NVM DBMS.** sigmod 2015. [paper](https://www.pdl.cmu.edu/PDL-FTP/NVM/storage.pdf)
 #### SSD
 
+
+
 ### Stream & Sketch
+
+### Security and Privacy
+1. **Obladi: Oblivious Serializable Transactions in the Cloud.** OSDI 2018. [paper](https://www.usenix.org/system/files/osdi18-crooks.pdf)
+2. **SMCQL: Secure Querying for Federated Databases.** VLDB 2017. [paper](https://arxiv.org/pdf/1606.06808.pdf)
+3. **Shrinkwrap: Differentially-Private Query Processing in Private Data Federations** VLDB 2019. [paper](https://arxiv.org/abs/1810.01816)
+4. **ObliDB: Oblivious Query Processing.** VLDB 2020. [paper](http://www.vldb.org/pvldb/vol13/p169-eskandarian.pdf)
+5. **Answering Multi-Dimensional Analytical Queries under local differential privacy.** SIGMOD 2019. [paper](http://www.bolin-ding.com/papers/sigmod19ldpmda.pdf)
+6. **Multi-Dimensional Data Sharing and Analytics as services under local differential privacy.** VLDB 2019. [paper](http://www.vldb.org/pvldb/vol12/p1862-xu.pdf)
+
+
+
+### Transaction and Concurrency Control
+1. **Serializable Snapshot Isolation in PostgreSQL.** VLDB 2012. [paper](https://drkp.net/papers/ssi-vldb12.pdf)
+2. **Staring into the Abyss an evaluation of CC with 1000 scores.** VLDB 2014. [paper](http://www.vldb.org/pvldb/vol8/p209-yu.pdf)
+3. **Rethinking serializable multiversion concurrency control.** VLDB 2015. [paper](http://www.vldb.org/pvldb/vol8/p1190-faleiro.pdf)
+4. **Mostly-Optimistic Concurrency Control for Highly contended dynamic workloasd on a thousand cores.** VLDB 2016. [paper](https://www.vldb.org/pvldb/vol10/p49-wang.pdf)
+5. **Fast Databases with Fast Durability and recovery through multicore parallelism.** OSDI 2014. [paper](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-zheng_wenting.pdf)
+6. **Low Overhead Concurrency Control for Partitioned Main memory databases.** SIGMOD 2010. [paper](https://hstore.cs.brown.edu/papers/hstore-cc.pdf)
+
+### Key Value Store
+
+### Logging and Recovery
