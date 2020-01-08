@@ -54,8 +54,10 @@ Contributed by Song Bian (The Chinese University of Hong Kong), Lianke Qin (Nort
 
 10. [Logging and Recovery](#Logging-and-Recovery)
 
-### DB + ML
+11. [Compression](#Compression)
 
+### DB + ML
+1. **Automatic Database Management System Tuning Through Large-scale Machine Learning.** SIGMOD 2017. [paper](https://www.cs.cmu.edu/~ggordon/van-aken-etal-parameters.pdf)
 ### Data Exploration and Integration
 
 #### Provenance and Explanation
@@ -156,7 +158,8 @@ Contributed by Song Bian (The Chinese University of Hong Kong), Lianke Qin (Nort
 ### New Hardware
 
 #### GPU and FPGA
-
+1. **Hardware-conscious Query Processing in GPU-accelerated Analytical Engines.** CIDR 2019. [paper](http://cidrdb.org/cidr2019/papers/p127-chrysogelos-cidr19.pdf)
+2. 
 #### NVM
 1. **Managing Non-Volatile Memory in Database Systems.** SIGMOD 2018. [paper](https://db.in.tum.de/~leis/papers/nvm.pdf)
 2. **Let’s Talk About Storage & Recovery Methods for NVM DBMS.** SIGMOD 2015. [paper](https://www.pdl.cmu.edu/PDL-FTP/NVM/storage.pdf)
@@ -183,7 +186,22 @@ Contributed by Song Bian (The Chinese University of Hong Kong), Lianke Qin (Nort
 4. **Fast Databases with Fast Durability and recovery through multicore parallelism.** OSDI 2014. [paper](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-zheng_wenting.pdf)
 5. **Serializable Snapshot Isolation in PostgreSQL.** VLDB 2012. [paper](https://drkp.net/papers/ssi-vldb12.pdf)
 6. **Low Overhead Concurrency Control for Partitioned Main memory databases.** SIGMOD 2010. [paper](https://hstore.cs.brown.edu/papers/hstore-cc.pdf)
+7. **Adaptive Concurrency Control, Despite the Looking Glass, One Concurrency Control Does Not Fit All.** CIDR 2017. [paper](http://cidrdb.org/cidr2017/papers/p63-tang-cidr17.pdf)
 
 ### Key Value Store
-
+1. **Anna: A KVS For Any Scale.** ICDE 2018. [paper](https://dsf.berkeley.edu/jmh/papers/anna_ieee18.pdf)
+2. **Optimizing Space Amplification in RocksDB.** CIDR 2017. [paper](http://cidrdb.org/cidr2017/papers/p82-dong-cidr17.pdf)
+3. **Faster: A Concurrent Key-Value Store with In-Place Updates.** SIGMOD 2018. [paper](https://www.microsoft.com/en-us/research/uploads/prod/2018/03/faster-sigmod18.pdf)
+4. **Concurrent Log-Structured Memory for Many-Core Key-Value Stores.** VLDB 2018. [paper](http://www.vldb.org/pvldb/vol11/p458-merritt.pdf)
+5. **PebblesDB: Building Key-Value Stores using Fragmented Log-Structured Merge Trees.** SOSP 2017 [paper](https://www.cs.utexas.edu/~vijay/papers/sosp17-pebblesdb.pdf)
+6. **KVell: the design and implementation of a fast persistent key-value store.** SOSP 2019. [paper](https://github.com/BLepers/KVell/blob/master/sosp19-final40.pdf)
 ### Logging and Recovery
+1. **Rethinking Main Memory OLTP Recovery.** ICDE 2014. [paper](https://hstore.cs.brown.edu/papers/voltdb-recovery.pdf)
+2. **Aether: A Scalable Approach to Logging.** VLDB 2010. [paper](https://www.vldb.org/pvldb/vldb2010/pvldb_vol3/R61.pdf)
+3. **Fast Databases with Fast Durability and Recovery Through Multicore Parallelism.** OSDI 2014. [paper](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-zheng_wenting.pdf)
+4. **Fast Database Restarts at Facebook.** SIGMOD 2014. [paper](https://research.fb.com/wp-content/uploads/2016/11/fast-database-restarts-at-facebook.pdf)
+5. **Low-Overhead Asynchronous Checkpointing in Main-Memory Database Systems.** SIGMOD 2016. [paper](http://www.cs.umd.edu/~abadi/papers/fast-checkpoint-sigmod16.pdf)
+
+### Compression
+1. **Integrating Compression and Execution in Column-Oriented Database Systems.** SIGMOD 2006. [paper](http://db.lcs.mit.edu/projects/cstore/abadisigmod06.pdf)
+2. **Dictionary-based Order-preserving String Compression for Main Memory Column Stores.** SIGMOD 2009. [paper](https://15721.courses.cs.cmu.edu/spring2017/papers/11-compression/p283-binnig.pdf)
